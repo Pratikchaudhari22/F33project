@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.background{
+    height: 100%;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4)),rgba(0,0,0,0.4),url(background\ img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    width: 380px;
+    height: 480px;
+    position:relative;
+    margin:5% auto;
+    background-color: rgb(30, 133, 223);
+    padding:5px;
+    
+}
+.button-cont{
+    width: 220px ;
+    margin: 35px;
+    position: relative;
+
+}
+.toggle-btn{
+    padding:  10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position: relative;
+
+}
+#btn{
+    top:0;
+    left:0;
+    position:relative;
+    width: 100px;
+    height:100%;
+    background-color: color-mix(in srgb, color percentage, color percentage);
+    border-radius: 30px;
+    transition: 0.5s;
+}
