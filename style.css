@@ -1,46 +1,147 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+
 
 }
-.background{
-    height: 100%;
+#mynavbar{
+    background: rgb(15, 13, 13) ;
+}
+#logo{
+    font-size :30px;
+    color:rgb(250, 45, 45);
+    margin-bottom: 4px;
+    font-weight: 500;
+
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-items .nav-link{
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(244, 241, 241);
+    border-radius: 3px;
+    transition: 0.5 ease ;
+}
+
+.nav-link:hover{
+    background: rgb(145, 11, 235);
+    color: white;
+    border:none;
+}
+#navbar form button{
+    background: orange;
+    color: white;
+    border:none;
+
+}
+.Home{
     width:100%;
-    background-image:linear-gradient(rgba(0,0,0,0.4)),rgba(0,0,0,0.4),url(background\ img.jpg);
-    background-position: center;
+    height:100vh;
+    background-image: url(tour.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.form{
-    width: 380px;
-    height: 480px;
-    position:relative;
-    margin:5% auto;
-    background-color: rgb(30, 133, 223);
-    padding:5px;
+.Home .content{
+    text-align: center;
+    padding: 200px;
+}
+.Home .content h5{
+    color: rgb(31, 29, 29);
+    font-size: 40px;
+    font-weight:500;
+
+}
+.Home .content h1{
+    color: rgb(32, 29, 29);
+    font-size:70px;
+    font-weight:550px;
+    margin-top: 5px;
+}
+.Home .content p{
+    color: rgb(43, 38, 38);
+    font-size: 15px;
+    font-weight:500;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.BOOKNOW{
+    background: white;
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    font-weight: 600;
+}
+.main-text h1 span{
+    color: orange;
+}
+.book .card{
+    border-radius: 10px;
+}
+.book.row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
     
 }
-.button-cont{
-    width: 220px ;
-    margin: 35px;
-    position: relative;
+.textarea{
+    border: none;
+    border-radius: 10px;
+    height: 200px;
+}
+.Submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: orange;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-txt h1{
+    text-align: center;
+    margin-top:30px ;
+    font-weight: 600;
+
 
 }
-.toggle-btn{
-    padding:  10px 30px;
-    cursor: pointer;
-    background: transparent;
-    border:0;
-    outline: none;
-    position: relative;
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    
+}
+.packages .card img{
+    border-radius: 5px;
 
 }
-#btn{
-    top:0;
-    left:0;
-    position:relative;
-    width: 100px;
-    height:100%;
-    background-color: color-mix(in srgb, color percentage, color percentage);
-    border-radius: 30px;
-    transition: 0.5s;
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.checked{
+    color: orange;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: orange;
+    color: white;
+    border-radius: 4px ;
 }
